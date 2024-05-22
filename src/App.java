@@ -7,16 +7,26 @@ import java.util.Arrays;
 public class App {
         public static void main(String[] args) throws Exception {
                 Carro[] personas = new Carro[] {
-                                new Carro("Juan", 25),
-                                new Carro("Ana", 30),
-                                new Carro("Pedro", 20),
-                                new Carro("Maria", 35),
-                                new Carro("Jorge", 25),
-                                new Carro("Sara", 30),
-                                new Carro("Carlos", 45),
-                                new Carro("Lucia", 25),
-                                new Carro("Mateo", 20),
-                                new Carro("Irene", 18)
+                                new Carro("Toyota", 2010),
+                                new Carro("Honda", 2015),
+                                new Carro("Ford", 2005),
+                                new Carro("Chevrolet", 2018),
+                                new Carro("BMW", 2010),
+                                new Carro("Nissan", 2015),
+                                new Carro("Volkswagen", 2020),
+                                new Carro("Hyundai", 2010),
+                                new Carro("Kia", 2005),
+                                new Carro("Mazda", 2000),
+                                new Carro("Subaru", 2012),
+                                new Carro("Mercedes-Benz", 2016),
+                                new Carro("Lexus", 2011),
+                                new Carro("Audi", 2019),
+                                new Carro("Tesla", 2020),
+                                new Carro("Jaguar", 2014),
+                                new Carro("Land Rover", 2018),
+                                new Carro("Volvo", 2013),
+                                new Carro("Infiniti", 2008),
+                                new Carro("Acura", 2017)
                 };
 
                 ///// REalizar un metodo que ordene por el año de menor a mayor
