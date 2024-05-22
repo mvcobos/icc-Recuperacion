@@ -6,15 +6,15 @@ package Models;
  */
 public class Carro {
     // Atributos de la clase
-    String marca; // Almacena el marca de la caroo
-    int anio; // Almacena la anio de la caroo
+    String marca; // Almacena el marca de la carro
+    int anio; // Almacena la anio de la carro
 
     /**
      * Constructor para crear una nueva instancia de Carro con un marca y anio
      * específicos.
      * 
-     * @param marca Nombre del caroo.
-     * @param anio  Año del caroo.
+     * @param marca Nombre del carro.
+     * @param anio  Año del carro.
      */
     public Carro(String marca, int anio) {
         this.marca = marca; // Asigna el marca pasado al atributo marca de la clase
