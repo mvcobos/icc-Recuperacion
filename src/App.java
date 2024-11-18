@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 public class App {
         public static void main(String[] args) throws Exception {
-                Carro[] personas = new Carro[] {
+                Carro[] carros = new Carro[] {
                                 new Carro("Toyota", 2010),
                                 new Carro("Honda", 2015),
                                 new Carro("Ford", 2005),
@@ -29,10 +29,18 @@ public class App {
                                 new Carro("Acura", 2017)
                 };
 
-                ///// REalizar un metodo que ordene por el año de menor a mayor
-                /// Ele metodo sera el que le haya tocado en la pregunta del AVAC
+                // Implementar un método para ordenar los carros por año en orden ascendente
+                // El metodo se le especificara en el enunciado del examen
 
-                /// Encontrar el carro por busqueda binaria segun el año de fabricacion
+                // Encontrar el carro usando búsqueda binaria basada en el año de fabricación y
+                // imprimir su posició
+                // en el arreglo de carros
+                // Años a buscar en el arreglo de carros:
+                // - 2012
+                // - 2009
 
+                // Imprimir:
+                // Si encontro al carro en el arreglo de carros y su posisción
+                // Si no encontro al carro en el arreglo de carros
         }
 }
