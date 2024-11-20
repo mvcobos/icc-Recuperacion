@@ -1,46 +1,52 @@
 
-import Controllers.CarroController;
-import Models.Carro;
-
-import java.util.Arrays;
+import Models.Persona;
 
 public class App {
         public static void main(String[] args) throws Exception {
-                Carro[] carros = new Carro[] {
-                                new Carro("Toyota", 2010),
-                                new Carro("Honda", 2015),
-                                new Carro("Ford", 2005),
-                                new Carro("Chevrolet", 2018),
-                                new Carro("BMW", 2010),
-                                new Carro("Nissan", 2015),
-                                new Carro("Volkswagen", 2020),
-                                new Carro("Hyundai", 2010),
-                                new Carro("Kia", 2005),
-                                new Carro("Mazda", 2000),
-                                new Carro("Subaru", 2012),
-                                new Carro("Mercedes-Benz", 2016),
-                                new Carro("Lexus", 2011),
-                                new Carro("Audi", 2019),
-                                new Carro("Tesla", 2020),
-                                new Carro("Jaguar", 2014),
-                                new Carro("Land Rover", 2018),
-                                new Carro("Volvo", 2013),
-                                new Carro("Infiniti", 2008),
-                                new Carro("Acura", 2017)
+                Persona[] personas = {
+                                new Persona("Ana", 25),
+                                new Persona("Luis", 32),
+                                new Persona("Carlos", 40),
+                                new Persona("María", 19),
+                                new Persona("José", 45),
+                                new Persona("Laura", 30),
+                                new Persona("Pedro", 28),
+                                new Persona("Marta", 35),
+                                new Persona("Jorge", 50),
+                                new Persona("Sofía", 22),
+                                new Persona("Raúl", 18),
+                                new Persona("Patricia", 29),
+                                new Persona("Andrés", 41),
+                                new Persona("Elena", 24),
+                                new Persona("Manuel", 38),
+                                new Persona("Isabel", 34),
+                                new Persona("Gabriel", 42),
+                                new Persona("Claudia", 26),
+                                new Persona("Fernando", 31),
+                                new Persona("Paula", 20),
+                                new Persona("Diego", 36),
+                                new Persona("Rosa", 27),
+                                new Persona("Rubén", 44),
+                                new Persona("Teresa", 33),
+                                new Persona("Iván", 17),
+                                new Persona("Julia", 21),
+                                new Persona("Adriana", 39),
+                                new Persona("Sergio", 48),
+                                new Persona("Lorena", 23),
+                                new Persona("Miguel", 52)
                 };
+                // Implementar un método para ordenar las personas por edad en orden
+                // desecendente
+                // El método se especificará en el enunciado del examen
 
-                // Implementar un método para ordenar los carros por año en orden ascendente
-                // El metodo se le especificara en el enunciado del examen
-
-                // Encontrar el carro usando búsqueda binaria basada en el año de fabricación y
-                // imprimir su posició
-                // en el arreglo de carros
-                // Años a buscar en el arreglo de carros:
-                // - 2012
-                // - 2009
+                // Encontrar a la persona usando búsqueda binaria basada en la edad
+                // e imprimir su posición en el arreglo de personas
+                // Edades a buscar en el arreglo de personas:
+                // - 25
+                // - 70
 
                 // Imprimir:
-                // Si encontro al carro en el arreglo de carros y su posisción
-                // Si no encontro al carro en el arreglo de carros
+                // Si encontró a la persona en el arreglo de personas y su posición
+                // Si no encontró a la persona en el arreglo de personas
         }
 }
