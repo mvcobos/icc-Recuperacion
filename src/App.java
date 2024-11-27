@@ -1,4 +1,5 @@
 
+import Controllers.PersonaController;
 import Models.Persona;
 
 public class App {
@@ -36,6 +37,28 @@ public class App {
                                 new Persona("Miguel", 52)
                 };
 
+                PersonaController pcontrol = new PersonaController();
+                Persona[] arregloP = pcontrol.sortEdadBySelection(personas);
+                pcontrol.printArreglo(arregloP);
+                
+                int posicionArreglo =pcontrol.busBinEdad(personas, 25);
+                pcontrol.printPosicion(posicionArreglo, "La edad");
+                pcontrol.printDatos(arregloP, posicionArreglo);
+
+                int posicionArreglo2 = pcontrol.busBinEdad(personas, 70);
+                pcontrol.printPosicion(posicionArreglo2, "La edad");
+
+                Persona[] arregloNombre = pcontrol.sortNombreByInsertion(personas);
+                pcontrol.printArreglo(arregloNombre);
+
+                int posicionArregloNombre =pcontrol.busBinNombre(arregloNombre, "Anais");
+                pcontrol.printPosicion(posicionArregloNombre, "El nombre");
+                pcontrol.printDatos(arregloNombre, posicionArregloNombre);
+
+                int posicionArregloNombre2 =pcontrol.busBinNombre(arregloNombre, "Miguel");
+                pcontrol.printPosicion(posicionArregloNombre2, "El nombre");
+                pcontrol.printDatos(arregloNombre, posicionArregloNombre2);
+
                 /// TODOS los métodos deben ser implementados en la clase PersonaController
                 // Crear una instancia de la clase PersonaController y llamar a los métodos
                 // NO usar metodos estaticos
@@ -47,6 +70,7 @@ public class App {
                 // personas ya ordenarod por edad
                 // - 25
                 // - 70
+
 
                 // 2 - Implementar un método para ordenar las personas por su nombre en orden
                 // ascendente tipo inserción
