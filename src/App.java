@@ -4,7 +4,7 @@ import Models.Persona;
 public class App {
         public static void main(String[] args) throws Exception {
                 Persona[] personas = {
-                                new Persona("Ana", 25),
+                                new Persona("Anais", 25),
                                 new Persona("Luis", 32),
                                 new Persona("Carlos", 40),
                                 new Persona("María", 19),
@@ -35,18 +35,31 @@ public class App {
                                 new Persona("Lorena", 23),
                                 new Persona("Miguel", 52)
                 };
-                // Implementar un método para ordenar las personas por edad en orden
-                // desecendente
-                // El método se especificará en el enunciado del examen
 
-                // Encontrar a la persona usando búsqueda binaria basada en la edad
-                // e imprimir su posición en el arreglo de personas
-                // Edades a buscar en el arreglo de personas:
+                /// TODOS los métodos deben ser implementados en la clase PersonaController
+                // Crear una instancia de la clase PersonaController y llamar a los métodos
+                // NO usar metodos estaticos
+
+                // 1 - Implementar un método para ordenar las personas por edad en orden
+                // desecendente tipo selección
+
+                // 1.2 - Buscar a la persona con las sigueintes edaddes en el arreglo de
+                // personas ya ordenarod por edad
                 // - 25
                 // - 70
 
+                // 2 - Implementar un método para ordenar las personas por su nombre en orden
+                // ascendente tipo inserción
+
+                // 2.2 - Buscar a la persona con los sigueintes nombres en el arreglo de
+                // personas ya ordenarod por nombre
+                // - "Anais"
+                // - "Miguel"
+
                 // Imprimir:
-                // Si encontró a la persona en el arreglo de personas y su posición
+                // el arreglo ordenado para cada punto 1 y 2
+                // Si encontró a la persona en el arreglo de personas los datos de dicha persona
+                // y su posición
                 // Si no encontró a la persona en el arreglo de personas
         }
 }

@@ -145,7 +145,7 @@ Para contribuir a este proyecto, por favor crea un fork y envía un pull request
 
 ## Descripción
 
-Este proyecto Java implementa un sistema de gestión de vehículos utilizando el patrón Modelo-Vista-Controlador (MVC), aunque en este caso particular no se incluye una interfaz gráfica de usuario (Vista). El sistema permite ordenar y buscar vehículos por año a través de un arreglo de objetos `Carro`.
+Este proyecto Java implementa un sistema de gestión de vehículos utilizando el patrón Modelo-Vista-Controlador (MVC), aunque en este caso particular no se incluye una interfaz gráfica de usuario (Vista). El sistema permite ordenar y buscar vehículos por año a través de un arreglo de objetos `Persona`.
 
 Actividad de repaso de la unidad 1 en métodos de búsqueda y ordenamiento.
 
@@ -153,8 +153,8 @@ Actividad de repaso de la unidad 1 en métodos de búsqueda y ordenamiento.
 
 El proyecto está dividido en dos paquetes principales:
 
-- `Models`: Contiene la clase `Carro` que representa la entidad Carro con atributos para la marca y el año.
-- `Controllers`: Contiene la clase `CarroController` que maneja la lógica para operar sobre arrays de carros, incluyendo métodos para ordenar y buscar vehículos por año.
+- `Models`: Contiene la clase `Persona` que representa la entidad Persona con atributos para la marca y el año.
+- `Controllers`: Contiene la clase `PersonaController` que maneja la lógica para operar sobre arrays de carros, incluyendo métodos para ordenar y buscar vehículos por año.
 
 ## Funcionalidades
 
@@ -190,7 +190,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.281-b09, mixed mode)
 3. Compila el código usando el siguiente comando:
 
 ```bash
-javac -d . Models/Carro.java Controllers/CarroController.java App.java
+javac -d . Models/Persona.java Controllers/PersonaController.java App.java
 ```
 
 4. Ejecuta la aplicación con:
@@ -209,6 +209,6 @@ Para contribuir a este proyecto, por favor crea un fork y envía un pull request
 
 ### Notas adicionales:
 
-- **Comentarios en el código**: Debes implementar los métodos en `CarroController`. Actualmente, los métodos lanzan `UnsupportedOperationException` porque están marcados como "no implementados". Asegúrate de reemplazar estos marcadores con implementaciones reales antes de considerar el proyecto completo.
+- **Comentarios en el código**: Debes implementar los métodos en `PersonaController`. Actualmente, los métodos lanzan `UnsupportedOperationException` porque están marcados como "no implementados". Asegúrate de reemplazar estos marcadores con implementaciones reales antes de considerar el proyecto completo.
 
 ---
